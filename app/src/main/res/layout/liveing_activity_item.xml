@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/room_message_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        android:background="@drawable/round5_aab9a0b8">
+
+        <ImageView
+            android:id="@+id/roommes_user_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/roommes_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/roommes_user_head"
+            android:text="adssadas"
+            android:paddingRight="5dp"
+            android:textColor="@color/color_yellow_ac8300"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/roommes_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/roommes_user_name"
+            android:text="adssadas"
+            android:textColor="@color/white_dark"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+</LinearLayout>

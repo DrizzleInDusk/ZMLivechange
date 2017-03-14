@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rlparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingRight="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round500_aa704875"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Johnny"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android工程师"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <com.android.zmlive.view.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/crvheadimage"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/avatar_def"
+            app:riv_border_color="@color/purple_light"
+            app:riv_border_width="2dip"
+            app:riv_corner_radius="100dip"
+            app:riv_oval="true" />
+    </RelativeLayout>
+
+    <com.android.zmlive.view.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ivgift"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/avatar_def"
+        android:layout_alignRight="@id/rlparent"
+        app:riv_border_color="@color/purple_light"
+        app:riv_border_width="2dip"
+        app:riv_corner_radius="100dip"
+        app:riv_oval="true" />
+
+    <com.android.zmlive.fragment.liveing.MagicTextView
+        android:id="@+id/giftNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ivgift"
+        android:includeFontPadding="false"
+        android:text="x1"
+        android:textColor="@color/purple_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:strokeColor="@android:color/white"
+        app:strokeJoinStyle="miter"
+        app:strokeWidth="2" />
+
+</RelativeLayout>

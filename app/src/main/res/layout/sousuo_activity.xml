@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_dark"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_dark"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/purple_dark"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/sousuo_et"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/purple_ddark"
+                android:drawableLeft="@mipmap/sousuo"
+                android:drawablePadding="8dp"
+                android:hint="@string/sousuohint"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/sousuoback"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/quxiao"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/sousuo_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:id="@+id/sousuo_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ss_zwsj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="@string/zwsj"
+                        android:textColor="@color/black_light"
+                        android:textSize="15dp"
+                        android:visibility="gone" />
+
+                    <com.android.zmlive.view.MyGridView
+                        android:id="@+id/ss_gridview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center_horizontal"
+                        android:horizontalSpacing="8dp"
+                        android:numColumns="2"
+                        android:scrollbars="none"
+                        android:verticalSpacing="8dp" />
+
+                    <TextView
+                        android:id="@+id/ss_tjtitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:drawableLeft="@mipmap/tuijian"
+                        android:drawablePadding="8dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="用户推荐"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:visibility="gone" />
+
+                    <com.android.zmlive.view.MyListView
+                        android:id="@+id/sousuo_listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@null"
+                        android:dividerHeight="0dp"
+                        android:fadingEdge="none"
+                        android:groupIndicator="@null" />
+                </LinearLayout>
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/sousuo_totop"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/round500_white"
+                android:gravity="center"
+                android:text="顶"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

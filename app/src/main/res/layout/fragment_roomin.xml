@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/roominrl"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-15dp"
+            android:layout_toRightOf="@+id/inlv"
+            android:background="@drawable/yellowshape"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="30dp"
+            android:paddingTop="8dp"
+            android:singleLine="true"
+            android:text="123進入直播間"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/inlv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/round500_yellow"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="8dp"
+            android:singleLine="true"
+            android:text="1级"
+            android:textColor="@color/color_8d6000"
+            android:textSize="15dp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/zx_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.android.zmlive.view.MySwipeRefreshLayout
+            android:id="@+id/zx_swipe_ly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:id="@+id/zx_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.android.zmlive.view.MyListView
+                        android:id="@+id/zuixin_listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@null"
+                        android:dividerHeight="0dp"
+                        android:fadingEdge="none"
+                        android:groupIndicator="@null" />
+                    <TextView
+                        android:id="@+id/dz_jiazai"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="正在加载..."
+                        android:gravity="center"
+                        android:textColor="@color/purple"
+                        android:padding="15dp"/>
+                </LinearLayout>
+
+            </ScrollView>
+        </com.android.zmlive.view.MySwipeRefreshLayout>
+
+        <TextView
+            android:id="@+id/zx_totop"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/round500_white"
+            android:gravity="center"
+            android:text="顶"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</LinearLayout>

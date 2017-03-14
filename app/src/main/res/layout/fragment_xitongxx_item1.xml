@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_dark"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/xtxx_itemll"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent">
+
+            <com.android.zmlive.view.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/xtxx_touxiang"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/avatar_def"
+                app:riv_border_color="@color/white_dark"
+                app:riv_border_width="1dip"
+                app:riv_corner_radius="100dip"
+                app:riv_oval="true" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingRight="20dp"
+                android:text="亲爱的用户您好！"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/xtxx_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical|top"
+                android:maxLines="1"
+                android:paddingRight="20dp"
+                android:text=""
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

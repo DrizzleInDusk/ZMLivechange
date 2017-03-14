@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_dark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/gz_ll"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true">
+
+            <com.android.zmlive.view.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/gz_head"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/fw658"
+                app:riv_border_color="@color/white"
+                app:riv_border_width="2dip"
+                app:riv_corner_radius="100dip"
+                app:riv_oval="true" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/round3_667573e4"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/gz_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:drawableLeft="@mipmap/zuan"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="1px"
+                    android:background="@drawable/round3_aaffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:drawablePadding="3dp"
+                    android:text="29"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/gz_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:text="萨拉大家看看啦"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <ImageView
+            android:id="@+id/gz_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/nvs"/>
+        <TextView
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/gz_xuanzhong"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:src="@drawable/xuanzhong_press"/>
+    </LinearLayout>
+
+</LinearLayout>

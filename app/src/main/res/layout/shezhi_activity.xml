@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_dark"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_dark"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/purple_dark">
+
+            <ImageView
+                android:id="@+id/shezhiback"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:src="@mipmap/left_go" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/shezhi"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_title" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/shezhi_tixingshezhi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:drawableRight="@mipmap/rightgo"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/tixingshezhi"
+            android:textColor="@color/color_black_2e2625"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/shezhi_heimingdan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:drawableRight="@mipmap/rightgo"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/heimingdan"
+            android:textColor="@color/color_black_2e2625"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/shezhi_lianxiwomen"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:drawableRight="@mipmap/rightgo"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/lianxiwomen"
+            android:textColor="@color/color_black_2e2625"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/shezhi_guanyuwomen"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:drawableRight="@mipmap/rightgo"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/guanyuwomen"
+            android:textColor="@color/color_black_2e2625"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:id="@+id/shezhi_qingchuhuancun"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/qingchuhuancun"
+                android:textColor="@color/color_black_2e2625"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/shezhi_hcsize"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text=""
+                android:textColor="@color/black_light"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/shezhi_banbenxinxi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:drawableRight="@mipmap/rightgo"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/banbenxinxi"
+            android:textColor="@color/color_black_2e2625"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/shezhi_mimaguanli"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:drawableRight="@mipmap/rightgo"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/mimaguanli"
+            android:textColor="@color/color_black_2e2625"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/shezhi_tuichudenglu"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/tuichudenglu"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>

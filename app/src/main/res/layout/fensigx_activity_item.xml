@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_dark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/fsgxb_item_ll"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <com.android.zmlive.view.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fsgxb_item_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/fw658"
+            app:riv_border_color="@color/white"
+            app:riv_border_width="2dip"
+            app:riv_corner_radius="100dip"
+            app:riv_oval="true" />
+
+        <TextView
+            android:id="@+id/fsgxb_item_one"
+            android:layout_width="@dimen/zero"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/nicheng"
+            android:textColor="@color/black_light"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/fsgxb_item_two"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:text="成功"
+            android:textColor="@color/black_light"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00ffffff"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.android.zmlive.view.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/online_people_head"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:padding="6dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/fw658"
+        app:riv_corner_radius="100dip"
+        app:riv_oval="true" />
+</LinearLayout>

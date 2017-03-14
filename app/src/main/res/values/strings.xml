@@ -1,0 +1,513 @@
+<resources>
+    <string name="app_name">追梦直播</string>
+
+    <string name="umappkey">58114a552ae85b3f2c0019ca</string>
+    <string name="facebookid">686369434861962</string>
+
+    <string name="listlodmore">上拉加载更多</string>
+    <string name="listfooter">正在加载....</string>
+    <string name="listsuc">加载完成</string>
+    <string name="lister">加载出错</string>
+    <string name="listnomore">已经到底啦！</string>
+
+    <string name="stop">暂停</string>
+    <string name="start">下载</string>
+
+    <string name="dianhua">400-8888-8888</string>
+    <string name="gfyxid">huayuanmv7v68e94eg</string>
+    <string name="youxiang">265984644@hu.com</string>
+    <string name="fxbt">你的好友邀请你一起参加追梦直播</string>
+    <string name="fxnr">我在追梦直播，快一起来看吧</string>
+    <string name="fxnr1">我在追梦直播，邀请码是</string>
+    <string name="fxnr2">，一起来看吧</string>
+    <string name="logout">账号已在其他设备登录</string>
+
+    <string name="nolivehint">该主播还未开始直播</string>
+    <string name="loginhint">请先登录</string>
+    <string name="nullpermiss">授权失败</string>
+    <string name="vipcode">VIP邀请码登录</string>
+    <string name="mobileregist">手机注册</string>
+    <string name="nulluserhint">请使用手机注册或登录</string>
+    <string name="nullmobile">请填写正确手机号</string>
+    <string name="noauthcode">获取验证码获取失败，请重试</string>
+    <string name="againhint">再按一次退出</string>
+    <string name="login">登录</string>
+    <string name="login2">登录</string>
+    <string name="rexieyi">追梦直播用户注册协议</string>
+    <string name="login_failed">账号或密码错误</string>
+    <string name="loginexc">登录失败</string>
+    <string name="login_exception">无效输入</string>
+    <string name="regist">注册</string>
+    <string name="authcode">获取验证码</string>
+    <string name="authcodeyet">重新获取验证码</string>
+    <string name="authhint">s后重新获取</string>
+    <string name="next">下一步</string>
+    <string name="yes">确定</string>
+    <string name="yes1">确认</string>
+    <string name="wancheng">完成</string>
+    <string name="logincode">注册码登陸</string>
+    <string name="fogetpass">忘记密码</string>
+    <string name="zhibozhong">直播中</string>
+    <string name="nobozhong">未直播</string>
+    <string name="livenull">直播失败</string>
+    <string name="area">选择城市</string>
+    <string name="sheng">请选择省</string>
+    <string name="shi">请选择市</string>
+    <string name="xian">请选择区（县）</string>
+    <string name="fogetpasshint">忘记密码？</string>
+    <string name="authcodehint">请输入验证码</string>
+    <string name="mobilehint">请输入手机号</string>
+    <string name="passkeyhint">请输入密码</string>
+    <string name="registpasshint">请输入6至12位密码（字母和数字组合）</string>
+    <string name="registpasshint1">请再输入一次密码</string>
+    <string name="agehint">请输入年龄</string>
+    <string name="registqiduhint">请选择地区</string>
+    <string name="registganderhint">性別</string>
+    <string name="noganderhint">请选择性別</string>
+    <string name="nopswhint">密码长度不正确</string>
+    <string name="logincodehint">请输入邀请码</string>
+    <string name="tongyi">同意</string>
+    <string name="jieshou">接受</string>
+    <string name="xieyi">《网络服务协议》</string>
+    <string name="noxieyi">请先同意《网络服务协议》</string>
+
+    <string name="musichot">热门歌曲</string>
+    <string name="mymusichot">我的</string>
+    <string name="mymusic">我的音乐</string>
+
+    <string name="live_starting">直播已开始</string>
+    <string name="zanting">暂停</string>
+    <string name="bofang">播放</string>
+    <string name="live_finished">直播已结束</string>
+    <string name="onlinepeo">在线人数</string>
+    <string name="qinmi">亲密度</string>
+    <string name="remen">热门</string>
+    <string name="gds">高大上</string>
+    <string name="sh">奢华</string>
+    <string name="dd">低调</string>
+    <string name="liveerid">在线人数</string>
+    <string name="tip">提示</string>
+    <string name="ok">确定</string>
+    <string name="living_finished">主播已停止直播，直播结束</string>
+    <string name="not_support_version">当前系统版本不支持滤镜模式，请选择普通模式</string>
+    <string name="net_broken">网络链接已断开</string>
+    <string name="nim_status_unlogin">未登录</string>
+    <string name="nim_status_connecting">连接中...</string>
+    <string name="nim_status_logining">登录中...</string>
+    <string name="message_history_query">云消息记录</string>
+    <string name="message_search_title">搜索本地消息记录</string>
+    <string name="message_clear">清空本地消息记录</string>
+    <string name="avchat_no_pick_up">未接听</string>
+    <string name="snapchat_longclick_to_view">按住查看</string>
+    <string name="snapchat_title">阅后即焚</string>
+    <string name="input_panel_file">发送文件</string>
+    <string name="input_panel_RTS">白 板</string>
+    <string name="input_panel_snapchat">阅后即焚</string>
+    <string name="input_panel_tip">Tip</string>
+    <string name="input_panel_audio_call">语音通话</string>
+    <string name="input_panel_video_call">视频通话</string>
+    <string name="message_info">聊天信息</string>
+    <string name="create_normal_team">创建讨论组</string>
+    <string name="msg_notice">消息提醒</string>
+    <string name="is_not_filter_mode">当前模式不支持滤镜</string>
+
+    <string name="sfrzhint1">正在认证中，请不要重复认证</string>
+    <string name="sfrzhint2">认证成功，不能重复认证</string>
+    <string name="czpf">操作过于频繁，请稍后再试</string>
+    <string name="hwkszb">该主播还未开始直播</string>
+    <string name="nullyue">余额不足</string>
+    <string name="overlive">直播结束</string>
+    <string name="wszchint">请先完善注册</string>
+    <string name="fanhuishouye">返回首頁</string>
+    <string name="sousuohint">请输入用户名或直播标题</string>
+    <string name="sousuohint1">请输入用户名或用户ID</string>
+    <string name="yqmbdhint">请输入邀请码</string>
+    <string name="sousuo">搜索</string>
+    <string name="zuixin">最新</string>
+    <string name="tongcheng">同城</string>
+    <string name="guanzhu">关注</string>
+    <string name="hongli">红利</string>
+    <string name="wodehongli">我的红利</string>
+    <string name="wodexiaoxi">我的消息</string>
+    <string name="hongliguanli">红利管理</string>
+    <string name="caiwuguanli">财务管理</string>
+    <string name="yqm">邀请码</string>
+    <string name="hlguiz">规则说明：\n\t1.活动对象：本活动针对所有用户；\n\t2.活动时间：永久\n\t3.参与条件：\n\t\t⑴所有已实名认证的用户，\n\t\t⑵奖励播钻>200的用户\n\n\t4.该活动由追梦直播保留最终解释权</string>
+    <string name="hlguiz1">规则说明：（点击查看详细）\n\t1.活动对象：本活动针对所有用户；\n\t2.活动时间：永久...</string>
+    <string name="wdtd">我的团队</string>
+    <string name="jlbz">奖励播钻  ￥</string>
+    <string name="yjdy">一级队员</string>
+    <string name="ejdy">二级队员</string>
+    <string name="sjdy">三级队员</string>
+    <string name="zwsj">暂还没有数据!</string>
+    <string name="shouyitixian">收益额</string>
+    <string name="tixianjilu">提现记录</string>
+    <string name="tixian">提现</string>
+    <string name="tixian1">提\t\t\t\t现</string>
+    <string name="shijian">时间</string>
+    <string name="jine">金额</string>
+    <string name="zhuangtai">状态</string>
+    <string name="yonghumingid">用户名（ID）</string>
+    <string name="tixianzhbd">提现账户绑定</string>
+    <string name="zfb">支付寶</string>
+    <string name="yhk">銀行卡</string>
+    <string name="ljbd">立即绑定</string>
+    <string name="ljtx">立即提现</string>
+    <string name="bdhint">绑定</string>
+    <string name="bdhint2">将成为您的提现账户</string>
+    <string name="zh">账号</string>
+    <string name="zher">输入账号有误！</string>
+    <string name="er">有误！</string>
+    <string name="qingshuru">请输入</string>
+    <string name="qingxzlw">请选择礼物</string>
+    <string name="zhenshixingming">真实姓名</string>
+    <string name="bzye">播钻余额</string>
+    <string name="txzh">提现账户</string>
+    <string name="txbz">提现播钻</string>
+    <string name="dzje">到账金额</string>
+    <string name="beizhu">备注</string>
+    <string name="beizhuhint">1.提现会产生手续费\n2.每人每天最多提现30次，单笔最高1万元\n3.申请提现后，会进行审核，审核合格后一个工作日内将提现金额打入提现账户，请务必确认提现账户真实有效</string>
+    <string name="txbzhint">请输入不少于200的播钻数额</string>
+    <string name="txbzer">播钻数额不足！</string>
+    <string name="szmxcx">收支明细查询</string>
+    <string name="szmx">收支明细</string>
+    <string name="fsgxb">粉丝贡献榜</string>
+    <string name="fs">发送</string>
+    <string name="chongzhi">充值</string>
+    <string name="txskxx">填写收款信息</string>
+    <string name="skdz">收款地址：</string>
+    <string name="qsrskdz">请输入收款地址</string>
+    <string name="czje">充值金额：</string>
+    <string name="qsrczje">请输入充值金额</string>
+    <string name="sj">时间：</string>
+    <string name="qsrsj">请输入时间</string>
+    <string name="xmnc">姓名或昵称：</string>
+    <string name="qsrxmnc">请输入姓名或昵称</string>
+    <string name="lldh">联络电话：</string>
+    <string name="qsrlldh">请输入联络电话</string>
+    <string name="qrsc">确认送出</string>
+    <string name="fh">返回</string>
+    <string name="zysx">注意事项：</string>
+    <string name="zysxhint1">1.收款时间：</string>
+    <string name="zysxhint2">台湾地区（台北市，新北市）：24小时服务\n台湾地区（其他地区）：08：00~20：00\n</string>
+    <string name="zysxhint3">2.收款范围：</string>
+    <string name="zysxhint4">台湾地区：\n台北市/新北市/桃园市/宜兰市/台中市/花莲市/高雄市\n</string>
+    <string name="zysxhint5">3.抵达时间：</string>
+    <string name="zysxhint6">台湾地区（台北市，新北市）：通过客服专员确认派遣后，一小时内抵达\n台北地区（其他地区）：通过客服专员确认派遣后，两小时内抵达</string>
+    <string name="zysxhint7">4.温馨提示：</string>
+    <string name="zysxhint8">⑴请先确认客服专员能否在地方和时间上配合到府收款；\n⑵后期将可能取消“到府收款”，请勿过度依赖，感谢理解和支持。</string>
+    <string name="qsrje">请输入金额</string>
+    <string name="chongzhi1">充\t\t\t\t值</string>
+    <string name="czjl">充值记录</string>
+    <string name="sdlw">收到礼物</string>
+    <string name="sclw">送出礼物</string>
+    <string name="slb">送礼榜</string>
+    <string name="fxb">分享榜</string>
+    <string name="fx">分享</string>
+    <string name="sendethint">在此输入你要说的话!</string>
+    <string name="ggglhint">您已经关注了</string>
+
+    <string name="zan">点赞</string>
+    <string name="fans">粉丝</string>
+    <string name="singin">签到送钻</string>
+    <string name="intactregist">完善注册</string>
+    <string name="help">帮助反馈</string>
+    <string name="hezuo">合作中心</string>
+    <string name="shipin">视频中心</string>
+    <string name="ansj">按时间</string>
+    <string name="anrd">按热度</string>
+    <string name="renzheng">身份认证</string>
+    <string name="zsxm">真实姓名</string>
+    <string name="zsxmhint">姓名须与证件号一致</string>
+    <string name="zjlx">证件类型</string>
+    <string name="qxzzjlx">请选择证件类型</string>
+    <string name="zjhm">证件号码</string>
+    <string name="zjhmhint">证件号须与姓名一致</string>
+    <string name="sczp">上传照片</string>
+    <string name="sczphint">请上传正面-手持身份证三张照片</string>
+    <string name="yaoqingma">邀请码补登</string>
+    <string name="xiezhu">协助</string>
+    <string name="guanli">管理</string>
+    <string name="xzgl">协助管理</string>
+    <string name="yylb">预约列表</string>
+    <string name="zbsq">直播申请</string>
+    <string name="changguan">场管</string>
+    <string name="shouhu">守护</string>
+    <string name="zhubo">主播</string>
+    <string name="tianjiashouhu">添加守护</string>
+    <string name="sheweishouhu">设为守护</string>
+    <string name="quxiashouhu">取消守护</string>
+    <string name="shezhi">设置</string>
+    <string name="tixingshezhi">提醒设置</string>
+    <string name="heimingdan">黑名单</string>
+    <string name="lianxiwomen">联系我们</string>
+    <string name="guanyuwomen">关于我们</string>
+    <string name="qingchuhuancun">清除缓存</string>
+    <string name="banbenxinxi">版本信息</string>
+    <string name="mimaguanli">密码管理</string>
+    <string name="tuichudenglu">退出登录</string>
+    <string name="sytx">声音提醒</string>
+    <string name="zdtx">震动提醒</string>
+    <string name="tztx">通知提醒</string>
+    <string name="gfxx">官方消息</string>
+    <string name="tskg">推送开关</string>
+    <string name="kbtx">开播提醒</string>
+    <string name="kfdh">客服电话</string>
+    <string name="yxdz">邮箱地址</string>
+    <string name="shgy">社会公约</string>
+    <string name="yszc">隐私政策</string>
+    <string name="fwtk">服务条款</string>
+    <string name="dlmm">登录密码</string>
+    <string name="jymm">交易密码</string>
+    <string name="xgmm">修改密码</string>
+    <string name="xgdlmm">修改登录密码</string>
+    <string name="xgjymm">修改交易密码</string>
+    <string name="szjymm">设置交易密码</string>
+    <string name="yzm">验证码</string>
+    <string name="newpswhint">请输入新密码</string>
+    <string name="aginenewpswhint">请再次输入新密码</string>
+    <string name="newpsw">新密码</string>
+    <string name="aginenewpsw">确认密码</string>
+    <string name="pswbuxiangtong">两次输入密码不一致！</string>
+    <string name="oldpsw">原密码</string>
+    <string name="oldpswhint">请输入原密码</string>
+    <string name="oldpswer">原密码不正确</string>
+    <string name="gzgl">关注管理</string>
+    <string name="wgzd">我关注的</string>
+    <string name="gzwd">关注我的</string>
+    <string name="bianji">编辑</string>
+    <string name="quanxuan">全选</string>
+    <string name="shanchu">删除</string>
+    <string name="xgzl">修改资料</string>
+    <string name="touxiang">头像</string>
+    <string name="nicheng">昵称</string>
+    <string name="xingbie">性別</string>
+    <string name="chengshi">城市</string>
+    <string name="shengao">身高</string>
+    <string name="nianling">年龄</string>
+    <string name="tizhong">体重</string>
+    <string name="shangwei">上围</string>
+    <string name="shoujihao">手机号</string>
+    <string name="qianming">签名</string>
+    <string name="gxqm">个性签名</string>
+    <string name="gxqmnull">个性签名不能为空</string>
+    <string name="gxqmhint">请不要在签名中泄露过多的个人信息</string>
+    <string name="gxqmhint1">请输入您的个性签名，30字以内</string>
+    <string name="paizhao">拍照</string>
+    <string name="xiangce">从相册选择</string>
+    <string name="sfrz1">亲爱的用户</string>
+    <string name="sfrz2">收到的礼物可兑换成钻石进行提现，为了</string>
+    <string name="sfrz3">保障</string>
+    <string name="sfrz4">资金安全</string>
+    <string name="sfrz5">开播前请通过</string>
+    <string name="sfrz6">绑定账户</string>
+    <string name="sfrz7">通过认证可以获得更好的体验</string>
+    <string name="sfrz8">认证即同意</string>
+    <string name="sfrz9">主播协议</string>
+    <string name="yjfk">意见反馈</string>
+    <string name="yjfkhint2">内容不能为空</string>
+    <string name="yjfkhint">请描述您遇到的问题的功能名称，以及问题现象，也可以上传手机截图；请描述您的宝贵建议，一经采用，本直播平台将对您进行奖励。</string>
+    <string name="jbhint">请描述您要举报的内容</string>
+    <string name="jbbthint">请输入举报标题</string>
+    <string name="xm">姓\t\t\t\t名</string>
+    <string name="jbbt">举报标题</string>
+    <string name="xmhint">请输入您的姓名</string>
+    <string name="lxfs">联系方式</string>
+    <string name="lxfshint">邮箱/QQ/手机号（必填）</string>
+    <string name="tijiao">提交</string>
+    <string name="ndch">您的称呼</string>
+    <string name="nszdq">您所在地区</string>
+    <string name="ndlxfs">您的联系方式</string>
+    <string name="wyhz">我要合作</string>
+    <string name="mshzsy">请您描述合作事宜</string>
+    <string name="bnwk">不能为空</string>
+    <string name="sixin">私信</string>
+    <string name="yuyue">预约</string>
+    <string name="tiren">踢人</string>
+    <string name="jinyan">禁言</string>
+    <string name="xitongxx">系统消息</string>
+    <string name="jubao">举报</string>
+    <string name="sxzb">预约主播</string>
+    <string name="yysj">预约时间</string>
+    <string name="yydd">预约地点</string>
+    <string name="ye">余额</string>
+    <string name="delguanzhuhint">至少选择一个关注！</string>
+
+    <string name="buildlive_titlehint">给直播起个标题吧(不超过20个字)</string>
+    <string name="nolivetitle">给直播起个标题</string>
+    <string name="nocity">请选择城市</string>
+    <string name="buildlive_mi">私密(密码)</string>
+    <string name="buildlive_ti">添加话题</string>
+    <string name="buildlive_fen">分享直播给好友，让好友来助阵</string>
+    <string name="fenzhi">分享至</string>
+    <string name="start_live">开始直播</string>
+    <string name="xuanzehuati_title">请选择或编辑你的话题</string>
+    <string name="quxiao">取消</string>
+
+    <string name="enter_live">进入直播</string>
+    <string name="errlive">进入房间失败</string>
+    <string name="errlive2">主播已下播或网络链接失败</string>
+    <string name="mode_choose">美图模式选择</string>
+    <string name="normal">普通</string>
+    <string name="filter">美颜</string>
+    <string name="whitening">美白</string>
+    <string name="night_view">夜景</string>
+    <string name="blur">模糊</string>
+    <string name="black_white">黑白</string>
+    <string name="sunset">黄昏</string>
+    <string name="filter_mode">滤镜选择</string>
+    <string name="play">播放</string>
+    <string name="fanzhuan">翻转</string>
+    <string name="meiyan">美颜</string>
+    <string name="sgd">闪光灯</string>
+
+    <string name="beijinyan">您已被禁言</string>
+    <string name="sendexception">消息发送失败！</string>
+
+
+    <string name="input_panel_guess">猜 拳</string>
+    <string name="start_session_record">我发起了白板演示</string>
+    <string name="session_end_record">白板演示已结束</string>
+    <!-- 云信SDK所需文案 -->
+    <string name="isfailed">连接超时</string>
+    <string name="nim_status_bar_multi_messages_incoming">%1$d位联系人有新消息</string>
+    <string name="nim_status_bar_ticker_text">%1$s有新消息</string>
+    <string name="nim_status_bar_image_message">%1$s发来一条图片消息</string>
+    <string name="nim_status_bar_audio_message">%1$s发来一条语音消息</string>
+    <string name="nim_status_bar_video_message">%1$s发来一条视频消息</string>
+    <string name="nim_status_bar_file_message">%1$s发来一条文件消息</string>
+    <string name="nim_status_bar_location_message">%1$s分享了一个地理位置</string>
+    <string name="nim_status_bar_notification_message">%1$s: 通知消息</string>
+    <string name="nim_status_bar_custom_message">%1$s: 自定义消息</string>
+    <string name="nim_status_bar_unsupported_message">%1$s: 无法显示该内容</string>
+    <string name="nim_status_bar_hidden_msg_content">你收到一条新消息</string>
+    <string name="zbxy">签约主播用户协议1.特别提示：1.1平潭永兴顺国际贸易有限公司（以下简称“追梦直播”）同意按照本协议的规定及其不时发布的网站管理规则提供在线演艺直播活动的技术支持服务，用户申请签约主播资格时应当同意本协议的全部条款并按照页面上的提示完成签约主播申请的过程。用户提交签约主播申请即表示用户完全接受本协议项下的全部条款；1.2用户申请签约主播成功后，即成为追梦直播签约主播，签约主播在追梦直播网站进行在线才艺直播活动。
+2.追梦直播权利与义务2.1追梦直播拥有签约主播在本网站在线演艺直播活动的音视频版权，包括直播及后期录制的音视频等信息网络传播权及转授权；2.2追梦直播优先向签约主播提供在线演艺直播活动的技术支持服务；
+3.签约主播权利与义务3.1用户保证在追梦直播的直播符合法律法规及相关政策的规定，无任何不良及非法内容；3.2用户不得利用追梦直播网络服务系统进行任何不利于追梦直播的行为；3.3用户不得利用追梦直播网络服务以任何理由或方式拉拢本网站用户去其他同类竞争网站；3.4用户承诺提供的个人信息（包括身份证号、银行帐号、联系方式、居住地址等）合法有效。
+4.如发生下列任何壹种情形，追梦直播有权随时解除用户的签约主播资格：4.1用户违反本协议中规定的规则；4.2用户违反网站管理或签约主播管理规则；4.3用户提供的个人资料不真实。</string>
+    <string name="ystk1">「追梦直播语音」服务条款\n
+\n
+语音软件使用合约书：\n
+\n
+为保障使用者（以下简称甲方）使用本平台（以下简称乙方）提供之「追梦直播语音」软件」（以下简称本软件）在线语音服务的相关权益，请于注册登记使用本软件之服务前，详细阅读以下「追梦直播语音」服务条款（下称本服务条款）。另外，乙方有权于任何时间修改或变更本服务条款之内容，建议甲方随时注意该等修改或变更。甲方于任何修改或变更后继续使用本服务，视为甲方已阅读、了解并同意接受该等修改或变更。如果甲方不同意本服务条款的内容，或者甲方所属的国家或地域排除本服务条款内容之全部或一部时，甲方应立即停止使用本服务。\n
+\n
+第一条、服务条款前提\n
+\n
+甲方了解一旦甲方按下「我同意」之按键，即表示甲方已经详细审阅并了解本服务条款的所有内容，并愿意确实遵守本服务条款与本语音软件相关之管理规章、规则。\n
+「追梦直播语音」服务之申请，若甲方为无行为能力人，应由其法定代理人为之；若为限制行为能力人，应得法定代理人之同意。一旦甲方按下「我同意」之按键后，即推定其法定代理人已同意遵守本合同与本平台相关之管理规章、规则。\n
+\n
+第二条、合约书之适用范围\n
+\n
+一、乙方提供甲方语音系统下载、安装、使用、复制《语音软体》及相关服务（以下简称本软件），当使用者点选「我同意」按钮，或者使用语音软件，即表示甲方已经详细审阅并了解本合约书的所有条款达三日以上，并愿意确实遵守本服务条款与本语音相关之管理规章、规则。\n
+二、“甲方同意”的方式有：（1）接受本协定及乙方发布的服务条款；（2）甲方经由电子邮件、电话、传真、即时通信等方式所作的口头或书面表示；（3）协定或服务声明中有“预设同意”条款，会员对此并未提出异议的。（4）其他乙方与甲方均认可的方式。\n
+\n
+第三条、授权\n
+\n
+以甲方遵守本服务条款为前提下，乙方授与您有限、非独占、不可让渡、不可转授权、不可转让的权限。\n
+保留权利：未明示授权的其他一切权利仍归乙方所有，甲方使用其他权利时须另外取得乙方的书面同意。\n
+\n
+第四条、名词定义\n
+\n
+本契约之名词定义如下：\n
+一、语音软件：系指甲方透过网际网路连线经由乙方所架设之网路服务器，使甲方得与其他不特定之多数人得同时连线进行语音之软件。\n
+二、语音网站：系指由乙方为提供本语音服务所建置之网站。\n
+三、语音管理规则：系指由乙方订立，专供为规范语音进行方式、甲方使用语音行为守则等相关规则。\n
+四、开始服务：系指甲方申请乙方所提供之语音软件服务帐号时。\n
+五、下载相关软件：系指由网路下载语音软件之行为。\n
+六、永久：本服务条款中所涉及之永久期限，乃系以服务器持续开启为前提要件而言，故日后一旦服务器关闭则即为终止日，从而排除永久之适用。\n
+\n
+第五条、服务范围\n
+\n
+本软件所提供之服务，系由乙方提供网路服务器，供甲方透过网际网路连线登入使用本语音软件。但此不包括甲方向网际网路接取服务业者申请接取网际网路之服务，及提供上网所需之各项硬件设备。\n
+本软件可能使用的协力厂商软件或技术，业经合法授权。因协力厂商软件或技术引发的任何纠纷，将由该协力厂商负责解决，乙方并不承担任何责任。乙方不对协力厂商软件或技术提供客服支持，若甲方需要获取支持，请径与该软件或技术提供商联系。\n
+乙方有权对于软件进行改进、修改、增强、修正、更新、升级与未来的版本。当乙方进行软件之改进、修改、增强、修正、更新、升级与未来的版本时，可能导致必须暂停或限制您使用部分或全部的软件，直至改进、修改、增强、修正、更新、升级与未来的版本完成为止。除非必须紧急干预，「追梦直播语音」软件会尽可能事先于官方网站公布日期与时间。您无权对暂停或限制使用「追梦直播语音」软件要求损害赔偿。\n
+\n第六条、个人资料\n
+\n
+甲方申请使用本语音软件，应于语音软件网站登录与个人信息相符之个人资料。甲方所登录之个人资料，有错误或已变更时，应立即于在线修订更新。如甲方未提供正确之个人资料或原提供之资料已不符合真实而未于在线修订更新，乙方得于甲方提供真实资料或更新资料前，暂停本服务（包含但不限于暂停甲方语音软件进行）。\n
+\n
+第七条、合同解除权规定\n
+\n
+甲方得于开始使用语音软件后七日内，以电子邮件或书面告知乙方解除本契约，甲方无需说明理由及负担任何解除合同的费用。解除合同后，甲方得就未使用之储值点数向乙方请求退费。退费依照本服务条款第16条之规定。\n
+甲方就前项合同之解除，须负回复原状之义务。包括但不限于删除甲方之语音软件帐号、服务器、记录等。\n
+\n
+第八条、软件使用须知\n
+\n
+倘甲方于「连续60天」内未曾有登入「追梦直播语音」软件之任何记录，乙方有权无须通知甲方，直接删除甲方之语音软件帐号、纪录与相关资料等。\n
+甲方在遵守法律及本服务条款的前提下可依本服务条款使用本“软件”，乙方行为如涉及不法，除应由其自负法律责任外，甲方将主动配合相关主管机关调查处理。\n
+\n
+第九条、软件使用禁止与应注意事项\n
+\n
+甲方无权实施下列行为：\n
+一、删除本“软件”及其他副本上所有关于版权的资讯、内容。\n
+二、对本“软件”进行反向工程、反向汇编、反向编译等。\n
+三、对于本“软件”相关资讯等，未经乙方书面同意，甲方擅自实施包括但不限于下列行为：使用、复制、修改、连结、转载、汇编、发表、出版，建立镜像网站、擅自借助“软件”发展与之有关的衍生产品、作品、服务等。\n
+四、利用本“软件”发表、传送、传播、储存违反中华民国法律及一切国际网际网路规定、惯例，例如：侮辱、诽谤、色情、暴力、侵害他人权利或任何不当内容。\n
+五、利用本“软件”发表、传送、传播、储存侵害他人智慧财产权、营业秘密等合法权利的内容。若内容提供者在本服务中提供的资讯内容存在侵犯第三人着作权或商标权的可能，乙方公司将依据“着作权法”或”商标法”处理该资讯内容；详细处理常识请参见具体规则。\n
+六、甲方制造虚假身份以误导、欺骗他人。\n
+\n七、传送、散布或以其他方式实现传送含有受到智慧财产权法律，作为举例（但不限于此），包括着作权或商标法（或隐私权或公开权），保护的图像、相片、软件或其他资料的档案，除非您拥有或控制所需相关权利或已得到所有必要的许可。\n
+八、使用任何藉由侵犯商标、著作、专利、营业秘密或任何一方的其他专有权利的方式而利用本软件获得的图像、或图片的资料或资讯。\n
+
+甲方使用时应注意下列行为：\n
+一、甲方若于「追梦直播语音」频道及秀场进行在线播放音乐、视频或弹唱歌曲，则甲方须自行确保其使用音乐、视频或歌曲之来源已取得相关合法授权。若有日后遭第三人追索权利者，概予乙方无涉。且乙方若因此受有损失包括律师费用，甲方亦应赔偿。\n
+二、进行危害电脑网路安全的行为，包括使用未经许可的资料或不明程序或进入未经许可的服务器/帐户；未经允许进入公众电脑网路或者他人电脑系统并删除、修改、增加存储资讯；未经许可，企图探查、扫描、测试本“软件”系统或网路的弱点或其它实施破坏网路安全的行为；企图干涉、破坏本“软件”系统或网站的正常运行，故意传播恶意程序或病毒以及其他破坏干扰正常网路资讯服务的行为；伪造TCP/IP资料包名称或部分名称，或其他相类似行为。\n
+三、使用本“软件”必须遵守国家有关法律和政策等，并遵守本协议；对于甲方违法或违反本协议的使用而引起的一切责任，由甲方负全部责任，一概与乙方及合作单位无关；如有因此导致乙方及合作单位受有损害或损失者，乙方及合作单位有权要求甲方赔偿，并有权立即停止对其提供服务。\n
+四、本“软件”同大多数网际网路软件一样，可能受到各种安全问题的侵扰；诸如不法者利用甲方的资料，造成现实生活中的骚扰、下载安装的其它软件中含有病毒，威胁到甲方的电脑资讯和资料的安全，继而影响本“软件”的正常使用等等。甲方应加强资讯安全及甲方资料的保护意识，要注意加强程序密码保护，以免遭致损失和骚扰。若甲方未尽善良管理人注意义务，致帐号密码被盗而受有损害，乙方不负赔偿义务。\n
+五、非经乙方或乙方授权开发并正式发布的其它任何经由本“软件”衍生的软件均属非法；一旦擅自下载、安装、使用此类不明软件，将可能导致不可预知的风险，建议用户不要轻易下载、安装、使用；否则因此产生的一切法律责任与纠纷一概与乙方及合作单位无关。\n
+\n
+第十条、隐私权保障\n
+\n
+尊重甲方资讯资源的稳私权是乙方的一贯制度，乙方将会采取合理的措施保护甲方的资讯资源。除法律或政府要求或会员同意等原因外，乙方未经会员同意不向除合作单位以外的协力厂商公开、透露甲方资讯资源。但是会员在注册时选择或同意，或甲方与乙方及合作单位之间就甲方资讯资源公开或使用另有约定者皆除外；同时甲方应自行承担因此可能产生的任何风险，乙方对此不予负责。\n
+一般而言，乙方公司基于下列原因需要使用到甲方的资讯资源：（1）、执行软件验证服务。（2）、执行软件升级服务。（3）、提高甲方的使用安全性并提供客户支持。（4）、因甲方使用本语音特定功能或因甲方要求乙方或合作单位提供特定服务时，乙方或合作单位则需要把甲方的资讯提供给与此相关联的协力厂商。（5）、执行乙方的《隐私保护声明》，会员可至「追梦直播语音」软件网站（www.zhenzaishang.com）查阅该聲明。（6）、其他有利于甲方和乙方利益的。\n
+乙方保留在任何时候根据所适用的法律、法规、法令或政府要求的需要，而披露任何资讯，或由乙方自主决定全部或部分编辑、拒绝张贴、或删除任何资讯或资料的权利。\n
+\n
+第十一条、电脑资源使用\n
+\n
+电脑资源使用的同意及风险提示。\n
+甲方在此确认同意本软件在必要时，得使用您电脑处理器和频宽等资源，用作容许其它语音软件与甲方通信联络、或分享本语音软件及其他服务。此项同意可能会影响甲方的使用感受及带来不可预知的风险。甲方应认真考虑并做出选择，并自行承担风险。\n
+本语音软件将会尽其合理努力以保护甲方的电脑资源及电脑通讯的隐私性和完整性，惟甲方了解并同意乙方并无法就此事提供任何保证。\n
+\n
+第十二条、帐号与密码之使用\n
+\n
+乙方于甲方完成注册程序后，将核发一组帐号及密码；该组帐号一经设定即不得变更，且仅供甲方使用。甲方不得将该组帐号、密码转让或出借予第三人使用，如因而产生纠纷，由甲方自行负责，概与乙方无涉。\n
+前项之密码得依乙方提供之修改机制进行变更。乙方任何人员绝不会主动询问甲方之密码。为避免未经授权之使用，应避免使用密码存取第三方网站或服务。甲方应就本条之帐号及密码的保管负全责，如因保管不周致帐号、密码遭他人非法使用，此属可归责于甲方之情形，亦由甲方自行负责，概与乙方无涉。\n
+如果您怀疑他人知道您的密码，请立即更改密码，以保护您使用者帐户的安全，您有责任确保不响应任何来路不明的信用卡资讯、密码或其他资料的要求，若因此产生任何问题，概与乙方无涉。\n
+\n
+第十三条、服务条款之同意及一部效力\n
+\n
+甲方于合同审阅期过后初次注册帐号，进入显示本服务条款之网页，并按「同意」之选项后，即推定甲方同意本服务条款之规定及其后之修改变更。\n
+本合约若任何一部无效，不影响其他部份之效力。\n
+\n
+第十四条、服务条款之变更\n
+\n
+乙方修改本服务条款时，应于语音软件网站首页及语音软件之登入页面公告之而不另行个别通知，甲方不得因乙方未为此通知而要求任何赔偿。乙方未依前项进行公告及通知者，其合同之变更无效。\n
+甲方于前项通知到达后十五日内：\n
+一、甲方未为反对之表示或继续使用服务者，视为甲方接受乙方合同变更之内容。\n
+二、甲方为反对之表示者，视为甲方对乙方终止本合同之通知。\n
+甲方应确保留存于乙方之地址或电子邮件之正确，若有变更，甲方应立即通知乙方。乙方以甲方留存于乙方之地址或电子邮件为通知之发出时，即视为已合法送达。\n
+\n
+第十五条、本服务之停止（合同之终止）\n
+\n
+甲方同意乙方得依其判断因任何理由，包括但不限于，一定期间未使用、法院或政府机关命令、本服务无法继续或服务内容实质变更、无法预期之技术或安全因素或问题、甲方所为诈欺或违法行为、未依约支付费用，或其他乙方认为甲方已经违反本服务条款的明文规定及精神，而终止或限制甲方使用帐号（或其任何部分）或本服务之使用，并将本服务内任何「会员内容」加以移除并删除。\n
+甲方有下列重大情事之一者，乙方得于通知甲方后，立即终止本服务之一部或全部且甲方将不予退还乙方储值剩余之费用：\n
+一、利用任何系统或工具对乙方电脑系统之恶意攻击或破坏。\n
+二、以利用外挂程序、病毒程序、程序漏洞或其他违反公平合理之方式使用本软件。\n
+三、经司法机关查获从事任何不法之行为。\n
+        \n
+第十六条、退费\n
+\n
+契约终止时，乙方于扣除渠道成本后，于30日内应以现金、信用卡、汇票或挂号寄发支票等方式，退还甲方储值剩余之费用。\n
+\n
+第十七条、通知\n
+\n
+如依法或其他相关规定须为通知时，乙方得以包括但不限于：电子邮件、一般信件、短信、多媒体短信、文字信息、张贴于本服务网页，或其他现在或未来合理之方式通知甲方，包括本服务条款之变更。但若甲方违反本服务条款，以未经授权的方式存取本服务，甲方将不会收到前述通知。当甲方经由授权的方式存取本服务，而同意本服务条款时，甲方即同意乙方所为之任何及所有给予甲方的通知，即视为皆已送达。\n
+\n
+第十八条、准据法\n
+\n
+本契约以中华民国法律为准据法。\n
+\n
+第十九条、管辖法院\n
+\n
+因本合同涉及的一切争讼，双方合意以台湾台北地方法院为第一审管辖法院。\n
+您明确认知，您已经阅读本「追梦直播语音」软件之服务条款并理解和接受其中所列出的权利、义务以及条款与细则。送出您的「注册」，即表示您明确同意接受本服务条款与细则的约束，并视为同意授与本平台依本服务条款所载的权利。\n
+    </string>
+</resources>

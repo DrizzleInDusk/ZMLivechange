@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="RoundedImageView">
+    <attr name="riv_corner_radius" format="dimension" />
+    <attr name="riv_corner_radius_top_left" format="dimension" />
+    <attr name="riv_corner_radius_top_right" format="dimension" />
+    <attr name="riv_corner_radius_bottom_left" format="dimension" />
+    <attr name="riv_corner_radius_bottom_right" format="dimension" />
+    <attr name="riv_border_width" format="dimension" />
+    <attr name="riv_border_color" format="color" />
+    <attr name="riv_mutate_background" format="boolean" />
+    <attr name="riv_oval" format="boolean" />
+    <attr name="android:scaleType" />
+    <attr name="riv_tile_mode">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_x">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_y">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+  </declare-styleable>
+  <!-- 分页标签 -->
+  <declare-styleable name="PagerSlidingTabStrip">
+    <attr name="pstsIndicatorColor" format="color"/>
+    <attr name="pstsUnderlineColor" format="color"/>
+    <attr name="pstsDividerColor" format="color"/>
+    <attr name="pstsCheckedTextColor" format="reference"/>
+    <attr name="pstsUncheckedTextColor" format="reference"/>
+    <attr name="pstsIndicatorHeight" format="dimension"/>
+    <attr name="pstsUnderlineHeight" format="dimension"/>
+    <attr name="pstsDividerPadding" format="dimension"/>
+    <attr name="pstsTabPaddingLeftRight" format="dimension"/>
+    <attr name="pstsScrollOffset" format="dimension"/>
+    <attr name="pstsTabBackground" format="reference"/>
+    <attr name="pstsShouldExpand" format="boolean"/>
+    <attr name="pstsTextAllCaps" format="boolean"/>
+  </declare-styleable>
+
+
+  <declare-styleable name="GifView">
+    <attr name="gif" format="reference" />
+    <attr name="paused" format="boolean" />
+  </declare-styleable>
+
+  <declare-styleable name="CustomTheme">
+    <attr name="gifViewStyle" format="reference" />
+  </declare-styleable>
+
+  <!-- 左右文本 -->
+  <declare-styleable name="TwoTextView">
+
+    <!-- 左边文本内容 -->
+    <attr name="ttLeftText" format="string|reference"/>
+    <!-- 右边文本内容 -->
+    <attr name="ttRightText" format="string|reference"/>
+    <!-- 左边文本字体大小 -->
+    <attr name="ttLeftTextSize" format="dimension"/>
+    <!-- 右边文本字体大小 -->
+    <attr name="ttRightTextSize" format="dimension"/>
+    <!-- 左边文本颜色 -->
+    <attr name="ttLeftTextColor" format="reference"/>
+    <!-- 右边文本颜色 -->
+    <attr name="ttRightTextColor" format="reference"/>
+  </declare-styleable>
+</resources>

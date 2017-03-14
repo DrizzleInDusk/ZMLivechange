@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_dark"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_dark"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/purple_dark">
+
+            <ImageView
+                android:id="@+id/wdxxback"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:src="@mipmap/left_go" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/wodexiaoxi"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_title" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="6dp"
+            android:background="@color/white"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/wdxx_xitongxxrl"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/wdxx_xitongxx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/xitongxx"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/xitongxx_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/xitongxx_point"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_above="@+id/wdxx_xitongxx"
+                    android:layout_marginBottom="-5dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toEndOf="@+id/wdxx_xitongxx"
+                    android:layout_toRightOf="@+id/wdxx_xitongxx"
+                    android:background="@drawable/round500_red"
+                    android:text=" "
+                    android:visibility="gone"
+                    android:textColor="@android:color/white"
+                    android:textSize="6dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/wdxx_sixinrl"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/wdxx_sixin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/sixin"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/sixin_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/sixin_point"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_above="@+id/wdxx_sixin"
+                    android:layout_marginBottom="-5dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toEndOf="@+id/wdxx_sixin"
+                    android:layout_toRightOf="@+id/wdxx_sixin"
+                    android:background="@drawable/round500_red"
+                    android:text=" "
+                    android:visibility="gone"
+                    android:textColor="@android:color/white"
+                    android:textSize="6dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.android.zmlive.view.CustomViewPager
+            android:id="@+id/vPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+    </LinearLayout>
+
+</LinearLayout>
